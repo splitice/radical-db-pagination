@@ -1,0 +1,16 @@
+{
+	"keywords" : [
+		"radical-php"
+	],
+	"autoload" : {
+		"psr-0" : {
+			"Radical" : "src"
+		}
+	},
+	"name" : "splitice/radical-db-pagination",
+	"type" : "library",
+	"description" : "radical-db-pagination",
+	"require" : {
+		"php" : ">=5.4"
+	}
+}
