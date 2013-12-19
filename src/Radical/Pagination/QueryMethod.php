@@ -1,5 +1,5 @@
 <?php
-namespace Radical\Pagination\Pagination;
+namespace Radical\Pagination;
 
 use Radical\Utility\Net\URL;
 class QueryMethod extends Internal\PaginationBase {

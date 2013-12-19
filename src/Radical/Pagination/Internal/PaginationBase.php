@@ -1,13 +1,9 @@
 <?php
-namespace Radical\Pagination\Pagination\Internal;
+namespace Radical\Pagination\Internal;
 
-use Radical\Pagination\Pagination\IPaginator;
-
+use Radical\Pagination\IPaginator;
 use Radical\Database\SQL\SelectStatement;
-
-use Radical\Database\IToSQL;
-
-use Radical\Pagination\Pagination\Template\IPaginationTemplate;
+use Radical\Pagination\Template\IPaginationTemplate;
 
 abstract class PaginationBase implements IPaginator {
 	protected $url;

@@ -1,7 +1,7 @@
 <?php
-namespace Radical\Pagination\Pagination\Template;
+namespace Radical\Pagination\Template;
 
-use Radical\Pagination\Pagination\IPaginator;
+use Radical\Pagination\IPaginator;
 
 class Bootstrap implements IPaginationTemplate {
 	function onePage(){

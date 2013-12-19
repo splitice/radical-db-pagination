@@ -6,6 +6,7 @@
 	<buildpathentry kind="src" path="vendor/symfony/filesystem"/>
 	<buildpathentry kind="src" path="vendor/symfony/property-access"/>
 	<buildpathentry kind="src" path="src"/>
+	<buildpathentry kind="src" path="vendor/splitice/radical-net/src"/>
 	<buildpathentry kind="src" path="vendor/splitice/radical-basic/src"/>
 	<buildpathentry kind="src" path="vendor/symfony/translation"/>
 	<buildpathentry kind="src" path="vendor/splitice/radical-common/src"/>

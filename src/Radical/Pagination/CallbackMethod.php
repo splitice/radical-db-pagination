@@ -1,5 +1,5 @@
 <?php
-namespace Radical\Pagination\Pagination;
+namespace Radical\Pagination;
 
 class CallbackMethod extends Internal\PaginationBase {
 	function toURL($page = 1){

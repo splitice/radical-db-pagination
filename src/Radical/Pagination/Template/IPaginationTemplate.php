@@ -1,6 +1,6 @@
 <?php
-namespace Radical\Pagination\Pagination\Template;
-use Radical\Pagination\Pagination\IPaginator;
+namespace Radical\Pagination\Template;
+use Radical\Pagination\IPaginator;
 
 interface IPaginationTemplate {
 	function onePage();
