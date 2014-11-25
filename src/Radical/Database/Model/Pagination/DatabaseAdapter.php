@@ -23,7 +23,7 @@ class DatabaseAdapter implements IPaginationSource {
     }
     function get_where($field, $value){
         $sql = clone $this->sql;
-        $sql->where_and(array($field,'LIKE',$value.'%'));
+        $sql->where_and(array($field,'LIKE',$value));
         return $this->source->Filter($sql);
     }
     function get_limit($start, $count){
