@@ -10,8 +10,8 @@ namespace Radical\Database\Model\Pagination;
 
 
 use Radical\Database\Model\Table\TableSet;
-use Radical\Web\Pagination\IPaginationSource;
 use Radical\Database\SQL;
+use Radical\Web\Pagination\IPaginationSource;
 
 class DatabaseAdapter implements IPaginationSource {
     private $source;
